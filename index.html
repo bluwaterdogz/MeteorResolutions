@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>resolution</title>
+		<link rel="shortcut icon" type="image/png" href="favicon.png"/>
+	</head>
+	<body>
+		<div class="container">
+			<div class="col-md-4">
+				<h1> Resolution List</h1>
+				{{> loginButtons}}
+			</div>
+			<div class="col-md-8 greyback clearfix">
+				<div class="input-header">
+				<header>
+					<h1>My Resolutions</h1>
+				</header>
+				{{>resoinput}}
+				</div>
+				<ul>
+					{{#each resolutions}}
+						{{> resolution}}
+					{{/each}}
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

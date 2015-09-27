@@ -1,0 +1,11 @@
+<template name="resoinput">
+	{{#if currentUser}}
+	<form id="createresoform">
+		<input type="text" name="titleinput" placeholder="Please add a new resolution" id="reso-input-box" autofocus>
+		<hr>
+		<button class="btn btn-info btn-xs addreso">Add Resolution</button>
+		<br>
+		<span class="hide-achieved-container">Hide Achieved: <input type="checkbox" checked="{{hideAchieved}}" id="hide-achieved"></span>
+	</form>
+	{{/if}}
+</template>
