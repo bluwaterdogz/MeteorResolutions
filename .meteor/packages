@@ -10,3 +10,8 @@ twbs:bootstrap
 accounts-password
 accounts-ui
 accounts-facebook
+meteorhacks:npm
+
+
+npm-container
+natestrauser:animate-css
